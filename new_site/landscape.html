@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feira no Parque | Site Oficial - Cultura, Gastronomia e Artesanato</title>
+  <meta name="description"
+    content="Site oficial da Feira no Parque. Encontre informações sobre datas, local, expositores, gastronomia, artesanato, curadoria e como expor seus produtos. Entrada Gratuita!">
+  <meta name="keywords"
+    content="Feira no Parque, Feira Artesanal, Gastronomia, Chopp Artesanal, Plantas, Pet Friendly, Cultura, Expositores">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Logo Feira no Parque.png">
+
+  <!-- Google Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="light-theme">
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span id="dynamic-aviso"><i class="fa-solid fa-tree"></i> <strong>Próxima Edição:</strong> Sábado & Domingo •
+        Parque Central • Entrada Gratuita & Pet Friendly!</span>
+      <a href="#proxima-edicao" class="announcement-link">Ver Horários <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="main-header">
+    <div class="container header-container">
+      <a href="#home" class="logo-link">
+        <img src="Logo Feira no Parque.png" alt="Logo Feira no Parque" class="header-logo">
+        <div class="logo-text">
+          <span class="brand-title">Feira no Parque</span>
+          <span class="brand-subtitle">Feira de Economia Criativa</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#proxima-edicao" class="nav-link">Próxima Edição</a>
+        <a href="#atracoes" class="nav-link">Atrações</a>
+        <a href="#curadoria" class="nav-link">Curadoria</a>
+        <a href="#quero-expor" class="nav-link highlight-link">Quero Expor</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#patrocinador" class="nav-link">Patrocínio</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20informações%20sobre%20a%20Feira%20no%20Parque"
+          target="_blank" rel="noopener" class="btn btn-whatsapp header-btn">
+          <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-slider" id="hero-slider">
+      <div class="slide active" style="background-image: url('assets/images/feira_no_parque_09.jpeg');"></div>
+      <div class="slide" style="background-image: url('assets/images/feira_no_parque_10.jpeg');"></div>
+      <div class="slide" style="background-image: url('assets/images/feira_no_parque_13.jpeg');"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badges">
+        <span class="badge badge-green"><i class="fa-solid fa-sparkles"></i> Feira Cultural & Gastronômica</span>
+        <span class="badge badge-amber"><i class="fa-solid fa-dog"></i> Espaço Pet Friendly</span>
+        <span class="badge badge-white"><i class="fa-solid fa-ticket"></i> Entrada Franca</span>
+      </div>
+
+      <h1 class="hero-title">O Ponto de Encontro da Arte, Gastronomia e Natureza</h1>
+      <p class="hero-description">
+        Venha vivenciar um dia inesquecível ao ar livre. Gastronomia artesanal, chopp trincando, artesanato local,
+        música ao vivo e espaço para toda a família!
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#proxima-edicao" class="btn btn-primary btn-lg">
+          <i class="fa-solid fa-calendar-check"></i> Quero Visitar
+        </a>
+        <a href="#quero-expor" class="btn btn-secondary btn-lg">
+          <i class="fa-solid fa-store"></i> Quero Expor Meu Trabalho
+        </a>
+      </div>
+
+      <!-- Quick Stats / Highlights -->
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">+80</span>
+          <span class="stat-label">Expositores Locais</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Artesanal & Autoral</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">Free</span>
+          <span class="stat-label">Entrada Gratuita</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">Kids</span>
+          <span class="stat-label">Área Infantil Segura</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre a Feira & Curadoria -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="img-box img-main">
+            <img src="assets/images/feira_no_parque_11.jpeg" alt="Estandes da Feira no Parque">
+          </div>
+          <div class="img-box img-sub">
+            <img src="assets/images/feira_no_parque_12.jpeg" alt="Produtos artesanais">
+          </div>
+          <div class="experience-badge">
+            <span class="number">100%</span>
+            <span class="text">Foco na Produção Local</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag"><i class="fa-solid fa-heart"></i> Nossa História & Propósito</span>
+          <h2 class="section-title">Valorizando quem faz com amor e dedicação</h2>
+          <p class="lead-text">
+            A <strong>Feira no Parque</strong> nasceu do desejo de conectar pequenos produtores, artesãos e artistas
+            diretamente ao público em um ambiente acolhedor e cercado pela natureza.
+          </p>
+          <p>
+            Acreditamos na economia criativa, na produção sustentável e na ocupação consciente dos espaços públicos.
+            Cada edição é planejada nos mínimos detalhes para oferecer uma experiência leve, segura e enriquecedora para
+            visitantes de todas as idades.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Feira Aberta & Acessível a Todos</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Fomento ao Comércio e Talentos Regionais</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Ambiente Familiar, Seguro e Sustentável</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Próxima Edição & Localização Card -->
+  <section class="section section-event" id="proxima-edicao">
+    <div class="container">
+      <div class="event-card-wrapper glass-card">
+        <div class="event-info">
+          <div class="section-tag"><i class="fa-solid fa-bullhorn"></i> Próximo Encontro</div>
+          <h2 class="section-title">Não Perca a Próxima Edição</h2>
+          <p class="event-subtitle">Marque na sua agenda e venha curtir o fim de semana com a gente!</p>
+
+          <div class="event-details-grid">
+            <div class="detail-box">
+              <div class="detail-icon"><i class="fa-regular fa-calendar-days"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Data</span>
+                <span class="detail-val" id="dynamic-data">Próximo Sábado e Domingo</span>
+              </div>
+            </div>
+
+            <div class="detail-box">
+              <div class="detail-icon"><i class="fa-regular fa-clock"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Horário</span>
+                <span class="detail-val" id="dynamic-horario">Das 10h às 19h</span>
+              </div>
+            </div>
+
+            <div class="detail-box">
+              <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Local</span>
+                <span class="detail-val" id="dynamic-local">Parque Principal da Cidade</span>
+              </div>
+            </div>
+
+            <div class="detail-box">
+              <div class="detail-icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Acesso</span>
+                <span class="detail-val">Entrada Gratuita (Livre)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-cta-group">
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-outline">
+              <i class="fa-solid fa-map-location-dot"></i> Abrir no Google Maps
+            </a>
+            <button class="btn btn-secondary" onclick="addToCalendar()">
+              <i class="fa-regular fa-calendar-plus"></i> Adicionar à Agenda
+            </button>
+          </div>
+        </div>
+
+        <div class="event-map-container">
+          <div class="map-placeholder">
+            <div class="map-overlay-card">
+              <i class="fa-solid fa-compass"></i>
+              <h4>Como Chegar</h4>
+              <p>Parque arborizado com amplo estacionamento nas imediações, ciclovia e transporte público na porta.</p>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197491702371!2d-46.6586!3d-23.5615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQxLjQiUyA0NsKwMzknMzEuMCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O que Você Encontra na Feira -->
+  <section class="section bg-light" id="atracoes">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-basket-shopping"></i> Variedade & Experiência</span>
+        <h2 class="section-title">O Que Você Encontra na Feira</h2>
+        <p class="section-subtitle">Uma seleção feita com carinho reunindo os melhores talentos e sabores da região.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon feature-gastronomia"><i class="fa-solid fa-utensils"></i></div>
+          <h3>Gastronomia</h3>
+          <p>Pratos artesanais, hambúrgueres gourmet, comida de rua, doces finos e opções veganas/vegetarianas.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-chopp"><i class="fa-solid fa-beer-mug-empty"></i></div>
+          <h3>Chopp & Vinhos</h3>
+          <p>Cervejarias artesanais locais, vinhos selecionados e drinks refrescantes servidos no ponto ideal.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-artesanato"><i class="fa-solid fa-palette"></i></div>
+          <h3>Artesanato & Moda</h3>
+          <p>Peças exclusivas de costura criativa, cerâmicas, bijuterias autorais, acessórios e roupas atemporais.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-plantas"><i class="fa-solid fa-seedling"></i></div>
+          <h3>Plantas & Jardinagem</h3>
+          <p>Suculentas, plantas ornamentais, kokedamas e insumos para transformar seu espaço em um refúgio verde.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-musica"><i class="fa-solid fa-music"></i></div>
+          <h3>Música ao Vivo</h3>
+          <p>Apresentações acústicas com artistas da cidade trazendo o melhor da MPB, Pop, Jazz e Rock leve.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-kids"><i class="fa-solid fa-face-smile"></i></div>
+          <h3>Brincadeiras Kids</h3>
+          <p>Oficinas recreativas, brinquedos e espaço seguro para as crianças se divertirem com tranquilidade.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-pet"><i class="fa-solid fa-paw"></i></div>
+          <h3>Espaço Pet Friendly</h3>
+          <p>Seu bichinho de estimação é super bem-vindo! Pontos de hidratação e acessórios pet exclusivos.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-bemestar"><i class="fa-solid fa-spa"></i></div>
+          <h3>Bem-Estar & Autocuidado</h3>
+          <p>Cosméticos naturais, saboaria artesanal, óleos essenciais e produtos orgânicos para o dia a dia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curadoria -->
+  <section class="section bg-curadoria" id="curadoria">
+    <div class="container">
+      <div class="curadoria-card">
+        <div class="curadoria-header">
+          <span class="section-tag light-tag"><i class="fa-solid fa-award"></i> Padrão de Qualidade</span>
+          <h2>Como Funciona Nossa Curadoria</h2>
+          <p>Garantimos a diversidade e o alto nível dos produtos apresentados em todas as edições.</p>
+        </div>
+
+        <div class="curadoria-steps">
+          <div class="c-step">
+            <div class="step-num">01</div>
+            <h3>Autoralidade</h3>
+            <p>Priorizamos produtos originais, feitos à mão ou produzidos em pequena escala por artesãos e produtores
+              autônomos.</p>
+          </div>
+
+          <div class="c-step">
+            <div class="step-num">02</div>
+            <h3>Diversidade de Segmentos</h3>
+            <p>Equilibramos as categorias de expositores para evitar concorrência excessiva e oferecer variedade ao
+              público.</p>
+          </div>
+
+          <div class="c-step">
+            <div class="step-num">03</div>
+            <h3>Capricho & Apresentação</h3>
+            <p>Avaliamos a qualidade das peças, embalagens e a identidade visual das bancas para manter o charme da
+              feira.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quero Expor -->
+  <section class="section" id="quero-expor">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-store"></i> Para Empreendedores</span>
+        <h2 class="section-title">Quer Expor na Feira no Parque?</h2>
+        <p class="section-subtitle">Exponha seus produtos para milhares de visitantes qualificados e expanda sua marca.
+        </p>
+      </div>
+
+      <div class="expor-grid">
+        <div class="expor-card expor-info">
+          <h3>Como Participar</h3>
+          <ul class="expor-list">
+            <li><i class="fa-solid fa-check"></i> <strong>Quem pode participar:</strong> Artesãos, marcas autorais de
+              moda, gastronomia, bebidas, jardinagem e bem-estar.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>Estrutura fornecida:</strong> Espaço padronizado, iluminação
+              (quando noturno) e apoio de organização.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>Inscrição simples:</strong> Preencha o formulário oficial e
+              passe por nossa curadoria rápida.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>Valores & Taxas:</strong> Taxas acessíveis que cobrem a
+              infraestrutura e divulgação do evento.</li>
+          </ul>
+
+          <div class="expor-actions">
+            <a href="https://forms.google.com" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-paper-plane"></i> Formulario de Inscrição Oficial
+            </a>
+            <button class="btn btn-outline" onclick="openManualModal()">
+              <i class="fa-solid fa-book-open"></i> Ver Manual do Expositor
+            </button>
+          </div>
+        </div>
+
+        <div class="expor-card manual-card">
+          <div class="manual-badge"><i class="fa-solid fa-file-pdf"></i> Documento Oficial</div>
+          <h3>Manual do Expositor</h3>
+          <p>Consulte todas as diretrizes de montagem, horários, regras de conduta, padrões de bancas e orientações para
+            o dia do evento.</p>
+
+          <div class="manual-features">
+            <div class="m-feat"><i class="fa-solid fa-clock"></i> Horários de Montagem</div>
+            <div class="m-feat"><i class="fa-solid fa-bolt"></i> Pontos de Energia</div>
+            <div class="m-feat"><i class="fa-solid fa-shield-cat"></i> Regras de Convivência</div>
+          </div>
+
+          <button class="btn btn-secondary w-100" onclick="openManualModal()">
+            <i class="fa-solid fa-expand"></i> Visualizar Manual Completo
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria Oficial -->
+  <section class="section bg-light" id="galeria">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-camera"></i> Registros Reais</span>
+        <h2 class="section-title">Galeria Oficial do Evento</h2>
+        <p class="section-subtitle">Confira os melhores momentos das nossas últimas edições no parque.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">Todas as Fotos</button>
+        <button class="filter-btn" data-filter="expositores">Expositores</button>
+        <button class="filter-btn" data-filter="gastronomia">Gastronomia</button>
+        <button class="filter-btn" data-filter="publico">Público & Vibe</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Photo Items from project photos -->
+        <div class="gallery-item" data-category="expositores">
+          <img src="assets/images/feira_no_parque_09.jpeg" alt="Feira no Parque Expositores" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Expositores</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="publico">
+          <img src="assets/images/feira_no_parque_10.jpeg" alt="Público no parque" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Público & Vibe</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="expositores">
+          <img src="assets/images/feira_no_parque_11.jpeg" alt="Bancas de Artesanato" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Artesanato</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="gastronomia">
+          <img src="assets/images/feira_no_parque_12.jpeg" alt="Gastronomia e Bebidas" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Gastronomia</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="publico">
+          <img src="assets/images/feira_no_parque_13.jpeg" alt="Famílias e Pets" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Público & Vibe</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="expositores">
+          <img src="assets/images/feira_no_parque_14.jpeg" alt="Produtos Autorais" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Expositores</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="gastronomia">
+          <img src="assets/images/feira_no_parque_15.jpeg" alt="Doces e Lanches" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Gastronomia</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="publico">
+          <img src="assets/images/feira_no_parque_16.jpeg" alt="Momento ao ar livre" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="cat">Público & Vibe</span>
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area Restrita Teaser / Funcionalidade Futura -->
+      <div class="restricted-area-teaser">
+        <div class="restricted-icon"><i class="fa-solid fa-camera-rotate"></i></div>
+        <div class="restricted-content">
+          <h4>Área Restrita do Expositor (Em Breve)</h4>
+          <p>Espaço exclusivo para expositores comprarem fotos em alta definição do seu estande, com sistema inteligente
+            de busca por <strong>Reconhecimento Facial</strong>.</p>
+        </div>
+        <button class="btn btn-outline-light"
+          onclick="alert('Área Restrita em fase final de homologação. Em breve disponível!')">
+          <i class="fa-solid fa-lock"></i> Acessar Portal
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seja Patrocinador -->
+  <section class="section" id="patrocinador">
+    <div class="container">
+      <div class="sponsor-card glass-card">
+        <div class="sponsor-info">
+          <span class="section-tag"><i class="fa-solid fa-handshake"></i> Oportunidade de Marca</span>
+          <h2 class="section-title">Seja um Patrocinador da Feira no Parque</h2>
+          <p class="sponsor-desc">
+            Associe sua marca a valores de sustentabilidade, cultura, economia local e lazer em família. Alcance
+            milhares de pessoas presencialmente e nas redes sociais.
+          </p>
+
+          <div class="sponsor-metrics">
+            <div class="metric">
+              <span class="num">+5.000</span>
+              <span class="lbl">Visitantes / Edição</span>
+            </div>
+            <div class="metric">
+              <span class="num">85%</span>
+              <span class="lbl">Público Família / Adulto</span>
+            </div>
+            <div class="metric">
+              <span class="num">High</span>
+              <span class="lbl">Engajamento Digital</span>
+            </div>
+          </div>
+
+          <div class="sponsor-cta-buttons">
+            <a href="https://wa.me/5500000000000?text=Quero%20receber%20o%20Mídia%20Kit%20de%20Patrocínio"
+              target="_blank" rel="noopener" class="btn btn-primary">
+              <i class="fa-solid fa-download"></i> Solicitou Mídia Kit
+            </a>
+            <a href="#contato" class="btn btn-outline">
+              <i class="fa-solid fa-envelope"></i> Falar com Comercial
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perguntas Frequentes (FAQ) -->
+  <section class="section bg-light" id="faq">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Tira-Dúvidas</span>
+        <h2 class="section-title">Perguntas Frequentes (FAQ)</h2>
+        <p class="section-subtitle">Encontre respostas rápidas para as principais perguntas de visitantes e expositores.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>A entrada na Feira no Parque é realmente gratuita?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sim! A entrada no evento é 100% gratuita e aberta a todas as idades. Você paga apenas o que consumir nas
+              bancas de alimentos, bebidas e produtos dos expositores.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Posso levar meu pet?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Com certeza! Somos um evento totalmente Pet Friendly. Pedimos apenas que cães de grande porte estejam com
+              coleira/guia e que os tutores recolham os dejetos dos seus animaizinhos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Como faço para expor meus produtos na próxima edição?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Basta clicar no botão <a href="#quero-expor">Quero Expor</a> neste site, preencher o formulário oficial
+              de curadoria e aguardar o contato da nossa equipe via WhatsApp ou e-mail.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>O que acontece se chover no dia da feira?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Nossa estrutura conta com áreas cobertas. Em caso de chuvas extremas ou tempestades que comprometam a
+              segurança, o evento é remarcado e divulgado em nossos canais oficiais.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quais as formas de pagamento aceitas nas bancas?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>A grande maioria dos expositores aceita Pix, Cartões de Débito, Crédito e dinheiro físico. Contudo,
+              recomendamos levar Pix/dinheiro como alternativa prática.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-tag"><i class="fa-solid fa-headset"></i> Canal Aberto</span>
+          <h2 class="section-title">Fale Conosco</h2>
+          <p>Tem alguma dúvida, sugestão ou deseja fazer uma parceria? Entre em contato pelos nossos canais diretos.</p>
+
+          <div class="c-detail">
+            <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="c-text">
+              <span class="label">WhatsApp Oficial</span>
+              <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">(00) 90000-0000</a>
+            </div>
+          </div>
+
+          <div class="c-detail">
+            <div class="c-icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="c-text">
+              <span class="label">Instagram</span>
+              <a href="https://instagram.com" target="_blank" rel="noopener">@feiranoparque.oficial</a>
+            </div>
+          </div>
+
+          <div class="c-detail">
+            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="c-text">
+              <span class="label">E-mail</span>
+              <a href="mailto:contato@feiranoparque.com.br">contato@feiranoparque.com.br</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Envie uma Mensagem</h3>
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="name">Nome Completo</label>
+              <input type="text" id="name" required placeholder="Seu nome">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail ou WhatsApp</label>
+              <input type="text" id="email" required placeholder="(00) 90000-0000 ou seu@email.com">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Assunto</label>
+
+              <select id="subject">
+                <option value="visitante">Dúvida de Visitante</option>
+                <option value="expositor">Quero Expor</option>
+                <option value="patrocinio">Patrocínio & Parcerias</option>
+                <option value="imprensa">Imprensa / Outros</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" rows="4" required placeholder="Como podemos te ajudar?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+              <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="Logo Feira no Parque.png" alt="Logo Feira no Parque" class="footer-logo">
+        <p>A feira de economia criativa que une cultura, artesanato, gastronomia e famílias em um só lugar.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre a Feira</a></li>
+          <li><a href="#proxima-edicao">Próxima Edição</a></li>
+          <li><a href="#quero-expor">Quero Expor</a></li>
+          <li><a href="#galeria">Galeria Oficial</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Informações</h4>
+        <ul>
+          <li><a href="#curadoria">Curadoria</a></li>
+          <li><a href="#patrocinador">Patrocínio</a></li>
+          <li><a href="#faq">Perguntas Frequentes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Redes Sociais</h4>
+        <div class="social-icons">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/5500000000000" target="_blank" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>&copy; 2026 Feira no Parque. Todos os direitos reservados. Projeto do Site Oficial.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Manual do Expositor -->
+  <div class="modal-overlay" id="manual-modal">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeManualModal()"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-header">
+        <i class="fa-solid fa-book-open"></i>
+        <h3>Manual do Expositor - Feira no Parque</h3>
+      </div>
+      <div class="modal-body">
+        <div class="manual-section">
+          <h4>1. Horários & Montagem</h4>
+          <p>A montagem das bancas deve ser iniciada pontualmente entre 08:00h e 09:30h da manhã do dia do evento. A
+            desmontagem só é permitida após o término oficial às 19:00h.</p>
+        </div>
+        <div class="manual-section">
+          <h4>2. Estrutura e Identidade Visual</h4>
+          <p>Cada expositor é responsável por trazer sua toalha de mesa (padrão neutro), banner ou placa de
+            identificação com nome da marca e tabela visível de preços.</p>
+        </div>
+        <div class="manual-section">
+          <h4>3. Produtos & Curadoria</h4>
+          <p>Somente os produtos aprovados na etapa de curadoria podem ser comercializados. Não é permitida a revenda de
+            itens industrializados em massa.</p>
+        </div>
+        <div class="manual-section">
+          <h4>4. Descarte de Resíduos</h4>
+          <p>Manter a área ao redor da banca limpa é obrigatório. Resíduos devem ser descartados nas lixeiras de coleta
+            seletiva da feira.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeManualModal()">Fechar</button>
+        <a href="https://forms.google.com" target="_blank" class="btn btn-primary">Inscrever Minha Marca</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal para Galeria -->
+  <div class="modal-overlay" id="lightbox-modal">
+    <div class="lightbox-container">
+      <button class="modal-close" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
+      <img id="lightbox-img" src="" alt="Ampliação da foto">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20Feira%20no%20Parque" target="_blank"
+    rel="noopener" class="whatsapp-float" title="Fale no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

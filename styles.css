@@ -1,0 +1,56 @@
+/* ==========================================================================
+   FEIRA NO PARQUE - STYLESHEET OFICIAL
+   Cores Oficiais da Identidade Visual (@WhatsApp Image 2026-08-03 at 14.08.58.jpeg)
+   ========================================================================== */
+
+/* Design Tokens & Variáveis Oficial */
+:root {
+  /* Cores da Identidade Visual Oficial */
+  --brand-purple: #4d3c68;
+  /* Roxo Apagado (Cor Primária / Nobreza) */
+  --brand-purple-dark: #352849;
+  /* Roxo Escuro para Gradients & Footers */
+  --brand-purple-light: #67528a;
+  /* Roxo Médio / Hovers */
+
+  --brand-red: #e7575a;
+  /* Vermelho (Destaques & CTAs) */
+  --brand-azure: #36b8cd;
+  /* Azure / Azul Turquesa (Tags & Elementos Vivos) */
+  --brand-orange: #f0a24a;
+  /* Laranja (Avisos, Badges & Botões Secundários) */
+  --brand-bg-light: #fefbf8;
+  /* Laranja Claro (Fundo Principal / Off-White) */
+
+  /* Mapeamento dos Tokens Principais */
+  --primary-green: var(--brand-purple);
+  --primary-dark: var(--brand-purple-dark);
+  --primary-light: var(--brand-purple-light);
+  --accent-terracotta: var(--brand-red);
+  --accent-amber: var(--brand-orange);
+  --accent-azure: var(--brand-azure);
+  --accent-soft-amber: #FFF4E5;
+
+  /* Neutros & Backgrounds */
+  --bg-main: var(--brand-bg-light);
+  --bg-card: #FFFFFF;
+  --bg-secondary: #F6F0E6;
+  --text-dark: #2B213A;
+  --text-muted: #5F566D;
+  --text-light: #FEFBF8;
+  --border-color: #E8E0D5;
+
+  /* Efeitos, Sombras & Borders */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  --shadow-sm: 0 2px 8px rgba(77, 60, 104, 0.05);
+  --shadow-md: 0 8px 24px rgba(77, 60, 104, 0.12);
+  --shadow-lg: 0 16px 36px rgba(53, 40, 73, 0.18);
+  --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  /* Fontes */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
